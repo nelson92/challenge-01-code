@@ -3,11 +3,11 @@
     padding: 0;
     margin: 0;
 }
-
+/* this body element should apply to the entire document's body */
 body {
     background-color: #d9dcd6;
 }
-
+/* this header includes attributes for padding, font, bg color, font color */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -49,7 +49,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* this hero class is for the main image on the page, establishing orientation and size */
 .hero {
     height: 800px;
     width: 100%;
@@ -75,6 +75,7 @@ p {
     margin-left: 20px;
 }
 
+/* the benefits class applies to the lower right of the page and all of its contents */
 .benefits {
     margin-right: 20px;
     padding: 20px;
